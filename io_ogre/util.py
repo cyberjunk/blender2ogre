@@ -410,7 +410,7 @@ def get_lights_by_type( T ):
             if ob.data.type==T: r.append( ob )
     return r
 
-invalid_chars = '\/:*?"<>|'
+invalid_chars = '\:*?"<>|'
 
 def clean_object_name(value):
     global invalid_chars
